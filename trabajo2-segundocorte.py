@@ -369,7 +369,7 @@ print("\n--- EJERCICIO 10: PROYECTO COMPLETO ---")
 print("Crea un sistema de gestión de inventario con manejo completo de excepciones.")
 print()
 
-# 1️⃣ Excepciones personalizadas
+# 1️ Excepciones personalizadas
 class ErrorInventario(Exception):
     """Excepción base para inventario"""
     pass
@@ -382,7 +382,7 @@ class StockInsuficiente(ErrorInventario):
     """Se lanza cuando no hay suficiente stock para retirar"""
     pass
 
-# 2️⃣ Clase Inventario
+# 2️ Clase Inventario
 class Inventario:
     """Sistema de inventario con manejo completo de excepciones."""
 
@@ -411,7 +411,7 @@ class Inventario:
             raise ProductoNoEncontrado(f"Producto con código {codigo} no encontrado.")
         return self.productos[codigo]
 
-# 3️⃣ Prueba de la implementación
+# 3️ Prueba de la implementación
 inventario = Inventario()
 
 # Agregar productos
@@ -473,6 +473,7 @@ print()
 print("=" * 70)
 print(" ¡EJERCICIOS COMPLETADOS!")
 print("=" * 70)
+
 
 
 
