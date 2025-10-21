@@ -1,0 +1,11 @@
+[LIBROS]
+El Quijote, Miguel de Cervantes, 3
+Cien anos de soledad, Gabriel Garcia Marquez, 2
+1984, George Orwell, 5
+El Principito, Antoine de Saint-Exupery, 4
+
+[PLATOS]
+Bandeja Paisa, 25000
+Ajiaco, 20000
+Hamburguesa, 18000
+Pizza, 22000
